@@ -1,0 +1,66 @@
+.postBtn{
+    float: right;
+    margin:40px 0px 0 0;
+}
+.listOfMovies
+{
+    margin: 20px auto 50px auto;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(calc(90% / 4), 1fr));
+    clear: both;
+}
+
+.listOfMovies .item
+{
+    display: grid;
+    height: 80px;
+    grid-template-columns: 25% auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: "selected details details";
+    background-color: #ffffff;
+    overflow: hidden;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.listOfMovies .item .selected{
+    grid-area: selected;
+    align-items: center;
+}
+
+.listOfMovies .item .selected input[type='checkbox']{
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listOfMovies .item .details{
+    grid-area: details;
+    color:#333;
+}
+
+.listOfMovies .item .details .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.listOfMovies .item .details .year{
+    font-size: 14px;
+}
+
+@media screen and (max-width: 960px) {
+    .listOfMovies
+    {
+        grid-template-columns: repeat(auto-fill,minmax(calc(90% / 2), 1fr));
+    }   
+}
+
+@media screen and (max-width: 560px) {
+    .listOfMovies
+    {
+        grid-template-columns: repeat(auto-fill,minmax(calc(90% / 1), 1fr));
+    }   
+}

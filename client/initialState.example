@@ -1,0 +1,174 @@
+const initialState = {
+    movies: [],
+    moviesSelected: [],
+    movieCupResult: 
+        {
+          firstGroupStage: {
+            matchs: [
+              {
+                movieOne: {
+                  id: 'tt5463162',
+                  Titulo: 'Deadpool 2',
+                  Ano: 2018,
+                  Nota: 8.1
+                },
+                movieTwo: {
+                  id: 'tt4154756',
+                  Titulo: 'Vingadores: Guerra Infinita',
+                  Ano: 2018,
+                  Nota: 8.8
+                },
+                winner: {
+                  id: 'tt4154756',
+                  Titulo: 'Vingadores: Guerra Infinita',
+                  Ano: 2018,
+                  Nota: 8.8
+                }
+              },
+              {
+                movieOne: {
+                  id: 'tt3778644',
+                  Titulo: 'Han Solo: Uma História Star Wars',
+                  Ano: 2018,
+                  Nota: 7.2
+                },
+                movieTwo: {
+                  id: 'tt3501632',
+                  Titulo: 'Thor: Ragnarok',
+                  Ano: 2017,
+                  Nota: 7.9
+                },
+                winner: {
+                  id: 'tt3501632',
+                  Titulo: 'Thor: Ragnarok',
+                  Ano: 2017,
+                  Nota: 7.9
+                }
+              },
+              {
+                movieOne: {
+                  id: 'tt7784604',
+                  Titulo: 'Hereditário',
+                  Ano: 2018,
+                  Nota: 7.8
+                },
+                movieTwo: {
+                  id: 'tt3606756',
+                  Titulo: 'Os Incríveis 2',
+                  Ano: 2018,
+                  Nota: 8.5
+                },
+                winner: {
+                  id: 'tt3606756',
+                  Titulo: 'Os Incríveis 2',
+                  Ano: 2018,
+                  Nota: 8.5
+                }
+              },
+              {
+                movieOne: {
+                  id: 'tt4881806',
+                  Titulo: 'Jurassic World: Reino Ameaçado',
+                  Ano: 2018,
+                  Nota: 6.7
+                },
+                movieTwo: {
+                  id: 'tt5164214',
+                  Titulo: 'Oito Mulheres e um Segredo',
+                  Ano: 2018,
+                  Nota: 6.3
+                },
+                winner: {
+                  id: 'tt4881806',
+                  Titulo: 'Jurassic World: Reino Ameaçado',
+                  Ano: 2018,
+                  Nota: 6.7
+                }
+              }
+            ]
+          },
+          nextGroupStages: [
+            {
+              matchs: [
+                {
+                  movieOne: {
+                    id: 'tt4154756',
+                    Titulo: 'Vingadores: Guerra Infinita',
+                    Ano: 2018,
+                    Nota: 8.8
+                  },
+                  movieTwo: {
+                    id: 'tt3501632',
+                    Titulo: 'Thor: Ragnarok',
+                    Ano: 2017,
+                    Nota: 7.9
+                  },
+                  winner: {
+                    id: 'tt4154756',
+                    Titulo: 'Vingadores: Guerra Infinita',
+                    Ano: 2018,
+                    Nota: 8.8
+                  }
+                },
+                {
+                  movieOne: {
+                    id: 'tt3606756',
+                    Titulo: 'Os Incríveis 2',
+                    Ano: 2018,
+                    Nota: 8.5
+                  },
+                  movieTwo: {
+                    id: 'tt4881806',
+                    Titulo: 'Jurassic World: Reino Ameaçado',
+                    Ano: 2018,
+                    Nota: 6.7
+                  },
+                  winner: {
+                    id: 'tt3606756',
+                    Titulo: 'Os Incríveis 2',
+                    Ano: 2018,
+                    Nota: 8.5
+                  }
+                }
+              ]
+            },
+            {
+              matchs: [
+                {
+                  movieOne: {
+                    id: 'tt4154756',
+                    Titulo: 'Vingadores: Guerra Infinita',
+                    Ano: 2018,
+                    Nota: 8.8
+                  },
+                  movieTwo: {
+                    id: 'tt3606756',
+                    Titulo: 'Os Incríveis 2',
+                    Ano: 2018,
+                    Nota: 8.5
+                  },
+                  winner: {
+                    id: 'tt4154756',
+                    Titulo: 'Vingadores: Guerra Infinita',
+                    Ano: 2018,
+                    Nota: 8.8
+                  }
+                }
+              ]
+            }
+          ],
+          winner: {
+            id: 'tt4154756',
+            Titulo: 'Vingadores: Guerra Infinita',
+            Ano: 2018,
+            Nota: 8.8
+          },
+          second: {
+            id: 'tt3606756',
+            Titulo: 'Os Incríveis 2',
+            Ano: 2018,
+            Nota: 8.5
+          }
+        },
+    loading: false
+}
